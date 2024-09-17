@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 CC = gcc -o
-TARGET = main
+TARGET = bai1
 SRC = main.c
 all: 
 	$(CC) $(TARGET) $(SRC)
